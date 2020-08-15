@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_ea9a8c350a514439b33a36568dc751b7 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ea9a8c350a514439b33a36568dc751b7" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_ea9a8c350a514439b33a36568dc751b7 = L.map(
+                                  'map_ea9a8c350a514439b33a36568dc751b7',
+                                  {center: [40.7896239,-73.9598939],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_d4ef1d02ecbf433784e27b7ca741dafd = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+        
+    
+            var circle_marker_afe33e6a3cdd4c9e83119f4ad3b89c71 = L.circleMarker(
+                [40.73099955477061,-73.97405170469203],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2a8a1d",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_47e3e8ddf5a3463ea647932c677bf269 = L.popup({maxWidth: '300'});
+
+            
+                var html_bebcd48f686e4b4e968a7d85ec016def = $('<div id="html_bebcd48f686e4b4e968a7d85ec016def" style="width: 100.0%; height: 100.0%;">ALPHABET CITY Growth Median Sales Price: 30.0% Growth Mean Sale Price: 5.0% Growth in unit sales: 38.0% </div>')[0];
+                popup_47e3e8ddf5a3463ea647932c677bf269.setContent(html_bebcd48f686e4b4e968a7d85ec016def);
+            
+
+            circle_marker_afe33e6a3cdd4c9e83119f4ad3b89c71.bindPopup(popup_47e3e8ddf5a3463ea647932c677bf269);
+
+            
+        
+    
+            var circle_marker_a8dce2941cb04920bed6bcdc9428aef4 = L.circleMarker(
+                [40.744034706747975,-74.00311633472813],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3131",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_01decd10452b4aa491f19317000ab20d = L.popup({maxWidth: '300'});
+
+            
+                var html_99edbbab8e544ec78c0e40b0b0171835 = $('<div id="html_99edbbab8e544ec78c0e40b0b0171835" style="width: 100.0%; height: 100.0%;">CHELSEA Growth Median Sales Price: -17.0% Growth Mean Sale Price: -18.0% Growth in unit sales: 72.0% </div>')[0];
+                popup_01decd10452b4aa491f19317000ab20d.setContent(html_99edbbab8e544ec78c0e40b0b0171835);
+            
+
+            circle_marker_a8dce2941cb04920bed6bcdc9428aef4.bindPopup(popup_01decd10452b4aa491f19317000ab20d);
+
+            
+        
+    
+            var circle_marker_ad13c33d5d424e7cbd708921afb8bb4b = L.circleMarker(
+                [40.71561842231432,-73.99427936255978],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2a8a1d",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_853753f3cf154229b2b14764c31b961a = L.popup({maxWidth: '300'});
+
+            
+                var html_069f0bfb27934b0680a92ab1db7c99ed = $('<div id="html_069f0bfb27934b0680a92ab1db7c99ed" style="width: 100.0%; height: 100.0%;">CHINATOWN Growth Median Sales Price: 228.0% Growth Mean Sale Price: 126.0% Growth in unit sales: 25.0% </div>')[0];
+                popup_853753f3cf154229b2b14764c31b961a.setContent(html_069f0bfb27934b0680a92ab1db7c99ed);
+            
+
+            circle_marker_ad13c33d5d424e7cbd708921afb8bb4b.bindPopup(popup_853753f3cf154229b2b14764c31b961a);
+
+            
+        
+    
+            var circle_marker_4a3349b1b1564e29a2ea8977b5156605 = L.circleMarker(
+                [40.71522892046282,-74.00541529873355],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3131",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_fae75889d3a740dd84ec8249a6e45ee6 = L.popup({maxWidth: '300'});
+
+            
+                var html_d6bb206231b24a91804edc46b5119336 = $('<div id="html_d6bb206231b24a91804edc46b5119336" style="width: 100.0%; height: 100.0%;">CIVIC CENTER Growth Median Sales Price: -10.0% Growth Mean Sale Price: -8.0% Growth in unit sales: 81.0% </div>')[0];
+                popup_fae75889d3a740dd84ec8249a6e45ee6.setContent(html_d6bb206231b24a91804edc46b5119336);
+            
+
+            circle_marker_4a3349b1b1564e29a2ea8977b5156605.bindPopup(popup_fae75889d3a740dd84ec8249a6e45ee6);
+
+            
+        
+    
+            var circle_marker_9dc235ab6d614bc98700dd0f964606d5 = L.circleMarker(
+                [40.75910089146212,-73.99611936309479],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2a8a1d",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_95dfa23f43734089b21ddd6b3b2abfaf = L.popup({maxWidth: '300'});
+
+            
+                var html_3f5ea4964db54eb384e2e1c01ed75395 = $('<div id="html_3f5ea4964db54eb384e2e1c01ed75395" style="width: 100.0%; height: 100.0%;">CLINTON Growth Median Sales Price: 2.0% Growth Mean Sale Price: 32.0% Growth in unit sales: 105.0% </div>')[0];
+                popup_95dfa23f43734089b21ddd6b3b2abfaf.setContent(html_3f5ea4964db54eb384e2e1c01ed75395);
+            
+
+            circle_marker_9dc235ab6d614bc98700dd0f964606d5.bindPopup(popup_95dfa23f43734089b21ddd6b3b2abfaf);
+
+            
+        
+    
+            var circle_marker_01e2f066c64545d7b8bf8d328db1c12a = L.circleMarker(
+                [40.727846777270244,-73.98222616506416],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2a8a1d",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_a5878da00eb94900b606a413a26823d7 = L.popup({maxWidth: '300'});
+
+            
+                var html_a5eb1bc7af934f8da92b2133ab16cac2 = $('<div id="html_a5eb1bc7af934f8da92b2133ab16cac2" style="width: 100.0%; height: 100.0%;">EAST VILLAGE Growth Median Sales Price: 31.0% Growth Mean Sale Price: 85.0% Growth in unit sales: 250.0% </div>')[0];
+                popup_a5878da00eb94900b606a413a26823d7.setContent(html_a5eb1bc7af934f8da92b2133ab16cac2);
+            
+
+            circle_marker_01e2f066c64545d7b8bf8d328db1c12a.bindPopup(popup_a5878da00eb94900b606a413a26823d7);
+
+            
+        
+    
+            var circle_marker_79e719c6af7a4a2a9433859b2f4beb43 = L.circleMarker(
+                [40.73443393572434,-74.00617998126812],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#db7209",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_c9a9176bf19e4761abd38cb6b2d3e4a0 = L.popup({maxWidth: '300'});
+
+            
+                var html_c8816d3901b647c5ad238e999e236c0c = $('<div id="html_c8816d3901b647c5ad238e999e236c0c" style="width: 100.0%; height: 100.0%;">FASHION Growth Median Sales Price: -17.0% Growth Mean Sale Price: 10.0% Growth in unit sales: -29.0% </div>')[0];
+                popup_c9a9176bf19e4761abd38cb6b2d3e4a0.setContent(html_c8816d3901b647c5ad238e999e236c0c);
+            
+
+            circle_marker_79e719c6af7a4a2a9433859b2f4beb43.bindPopup(popup_c9a9176bf19e4761abd38cb6b2d3e4a0);
+
+            
+        
+    
+            var circle_marker_2ddab54da13342d982de9731bd48e5ff = L.circleMarker(
+                [40.70710710727048,-74.0106654452127],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2a8a1d",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_b020941bb24b409780781cb0a219d386 = L.popup({maxWidth: '300'});
+
+            
+                var html_9cf3432a3e884b3da37c50bbe5bb085b = $('<div id="html_9cf3432a3e884b3da37c50bbe5bb085b" style="width: 100.0%; height: 100.0%;">FINANCIAL Growth Median Sales Price: 20.0% Growth Mean Sale Price: 17.0% Growth in unit sales: 108.0% </div>')[0];
+                popup_b020941bb24b409780781cb0a219d386.setContent(html_9cf3432a3e884b3da37c50bbe5bb085b);
+            
+
+            circle_marker_2ddab54da13342d982de9731bd48e5ff.bindPopup(popup_b020941bb24b409780781cb0a219d386);
+
+            
+        
+    
+            var circle_marker_f754ff400b5a4935bb3ad43bfd6f7ba9 = L.circleMarker(
+                [40.739673047638426,-73.9909471052826],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3131",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_c1be9b75f7634ca4b8f4811c9ce442b3 = L.popup({maxWidth: '300'});
+
+            
+                var html_44a61c113f6a4268929fab1455cf2c98 = $('<div id="html_44a61c113f6a4268929fab1455cf2c98" style="width: 100.0%; height: 100.0%;">FLATIRON Growth Median Sales Price: -2.0% Growth Mean Sale Price: -2.0% Growth in unit sales: 93.0% </div>')[0];
+                popup_c1be9b75f7634ca4b8f4811c9ce442b3.setContent(html_44a61c113f6a4268929fab1455cf2c98);
+            
+
+            circle_marker_f754ff400b5a4935bb3ad43bfd6f7ba9.bindPopup(popup_c1be9b75f7634ca4b8f4811c9ce442b3);
+
+            
+        
+    
+            var circle_marker_c975775ea2f745a4add836c49fa30d7b = L.circleMarker(
+                [40.737209832715,-73.98137594833541],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2a8a1d",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_6fea6b2d9d2b4b72827d3f3e42489d56 = L.popup({maxWidth: '300'});
+
+            
+                var html_9542f4c7aafc4401aab1482e246f4254 = $('<div id="html_9542f4c7aafc4401aab1482e246f4254" style="width: 100.0%; height: 100.0%;">GRAMERCY Growth Median Sales Price: 18.0% Growth Mean Sale Price: 34.0% Growth in unit sales: 127.0% </div>')[0];
+                popup_6fea6b2d9d2b4b72827d3f3e42489d56.setContent(html_9542f4c7aafc4401aab1482e246f4254);
+            
+
+            circle_marker_c975775ea2f745a4add836c49fa30d7b.bindPopup(popup_6fea6b2d9d2b4b72827d3f3e42489d56);
+
+            
+        
+    
+            var circle_marker_a935fa2b8af3418bb575677471db7dad = L.circleMarker(
+                [40.72693288536128,-73.99991402945902],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3131",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_e6626c7e90f343e38d8d4f4792befa50 = L.popup({maxWidth: '300'});
+
+            
+                var html_9920465ca8384969b4e4ccc50fffed00 = $('<div id="html_9920465ca8384969b4e4ccc50fffed00" style="width: 100.0%; height: 100.0%;">GREENWICH VILLAGE-CENTRAL Growth Median Sales Price: -44.0% Growth Mean Sale Price: -15.0% Growth in unit sales: 43.0% </div>')[0];
+                popup_e6626c7e90f343e38d8d4f4792befa50.setContent(html_9920465ca8384969b4e4ccc50fffed00);
+            
+
+            circle_marker_a935fa2b8af3418bb575677471db7dad.bindPopup(popup_e6626c7e90f343e38d8d4f4792befa50);
+
+            
+        
+    
+            var circle_marker_29505fc8b7e9412cab0928cfa3731184 = L.circleMarker(
+                [40.71193198394565,-74.01686930508617],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#db7209",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_47d05f88db6645b391a1e1f90a794230 = L.popup({maxWidth: '300'});
+
+            
+                var html_e48ce102bd5e4f039527e9850e555955 = $('<div id="html_e48ce102bd5e4f039527e9850e555955" style="width: 100.0%; height: 100.0%;">GREENWICH VILLAGE-WEST Growth Median Sales Price: 13.0% Growth Mean Sale Price: -16.0% Growth in unit sales: 50.0% </div>')[0];
+                popup_47d05f88db6645b391a1e1f90a794230.setContent(html_e48ce102bd5e4f039527e9850e555955);
+            
+
+            circle_marker_29505fc8b7e9412cab0928cfa3731184.bindPopup(popup_47d05f88db6645b391a1e1f90a794230);
+
+            
+        
+    
+            var circle_marker_d02a8febe9ce44a88cffef377aee3492 = L.circleMarker(
+                [40.81597606742414,-73.94321112603905],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2a8a1d",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_d32683d823254b53894abed15ba5b143 = L.popup({maxWidth: '300'});
+
+            
+                var html_ba226061c38d4527a05d3ff8e9b7a52f = $('<div id="html_ba226061c38d4527a05d3ff8e9b7a52f" style="width: 100.0%; height: 100.0%;">HARLEM-CENTRAL Growth Median Sales Price: 18.0% Growth Mean Sale Price: 28.0% Growth in unit sales: 116.0% </div>')[0];
+                popup_d32683d823254b53894abed15ba5b143.setContent(html_ba226061c38d4527a05d3ff8e9b7a52f);
+            
+
+            circle_marker_d02a8febe9ce44a88cffef377aee3492.bindPopup(popup_d32683d823254b53894abed15ba5b143);
+
+            
+        
+    
+            var circle_marker_e37ef2ea0ece431993bc7e4d0db036ad = L.circleMarker(
+                [40.79224946663033,-73.94418223148524],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2a8a1d",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_6e1a0ed0a0c44845ae691a17bcdf0434 = L.popup({maxWidth: '300'});
+
+            
+                var html_4857631f07fc4cc8a5595cbcf5476d62 = $('<div id="html_4857631f07fc4cc8a5595cbcf5476d62" style="width: 100.0%; height: 100.0%;">HARLEM-EAST Growth Median Sales Price: 37.0% Growth Mean Sale Price: 14.0% Growth in unit sales: 283.0% </div>')[0];
+                popup_6e1a0ed0a0c44845ae691a17bcdf0434.setContent(html_4857631f07fc4cc8a5595cbcf5476d62);
+            
+
+            circle_marker_e37ef2ea0ece431993bc7e4d0db036ad.bindPopup(popup_6e1a0ed0a0c44845ae691a17bcdf0434);
+
+            
+        
+    
+            var circle_marker_21534a5c34bf44d6a13050bf15380d14 = L.circleMarker(
+                [40.8169344294978,-73.9573853935188],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#db7209",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_8256b3f4fcc24881b5274d2531f4693f = L.popup({maxWidth: '300'});
+
+            
+                var html_3a3487a9a377423b94163eb99eb59637 = $('<div id="html_3a3487a9a377423b94163eb99eb59637" style="width: 100.0%; height: 100.0%;">HARLEM-UPPER Growth Median Sales Price: -3.0% Growth Mean Sale Price: 82.0% Growth in unit sales: -45.0% </div>')[0];
+                popup_8256b3f4fcc24881b5274d2531f4693f.setContent(html_3a3487a9a377423b94163eb99eb59637);
+            
+
+            circle_marker_21534a5c34bf44d6a13050bf15380d14.bindPopup(popup_8256b3f4fcc24881b5274d2531f4693f);
+
+            
+        
+    
+            var circle_marker_e7b1f7ca836940dea226183d419f7e78 = L.circleMarker(
+                [40.75665808227519,-74.00011136202637],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3131",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_1577cc7cf430446da830466dd3186a33 = L.popup({maxWidth: '300'});
+
+            
+                var html_99f2cccdfd3a49659db63c35592d85b1 = $('<div id="html_99f2cccdfd3a49659db63c35592d85b1" style="width: 100.0%; height: 100.0%;">JAVITS CENTER Growth Median Sales Price: -35.0% Growth Mean Sale Price: -29.0% Growth in unit sales: 1100.0% </div>')[0];
+                popup_1577cc7cf430446da830466dd3186a33.setContent(html_99f2cccdfd3a49659db63c35592d85b1);
+            
+
+            circle_marker_e7b1f7ca836940dea226183d419f7e78.bindPopup(popup_1577cc7cf430446da830466dd3186a33);
+
+            
+        
+    
+            var circle_marker_8965e97af261472385ef6b5ffa1648ef = L.circleMarker(
+                [40.746917410740195,-73.97121928722265],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2a8a1d",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_f6912ec3e4834ad2bd297b822397c4b1 = L.popup({maxWidth: '300'});
+
+            
+                var html_c56325d0fa1f43b3a10b1d980eb59473 = $('<div id="html_c56325d0fa1f43b3a10b1d980eb59473" style="width: 100.0%; height: 100.0%;">KIPS BAY Growth Median Sales Price: 6.0% Growth Mean Sale Price: 18.0% Growth in unit sales: 78.0% </div>')[0];
+                popup_f6912ec3e4834ad2bd297b822397c4b1.setContent(html_c56325d0fa1f43b3a10b1d980eb59473);
+            
+
+            circle_marker_8965e97af261472385ef6b5ffa1648ef.bindPopup(popup_f6912ec3e4834ad2bd297b822397c4b1);
+
+            
+        
+    
+            var circle_marker_8d83dd85f1b6428bb4f478df89cc32e4 = L.circleMarker(
+                [40.71932379395907,-73.99730467208073],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3131",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_3d654e1c94c341ba8d812d220ba1a294 = L.popup({maxWidth: '300'});
+
+            
+                var html_3b8160b329d746a891d7dc5f0ffd7800 = $('<div id="html_3b8160b329d746a891d7dc5f0ffd7800" style="width: 100.0%; height: 100.0%;">LITTLE ITALY Growth Median Sales Price: -26.0% Growth Mean Sale Price: -25.0% Growth in unit sales: 111.0% </div>')[0];
+                popup_3d654e1c94c341ba8d812d220ba1a294.setContent(html_3b8160b329d746a891d7dc5f0ffd7800);
+            
+
+            circle_marker_8d83dd85f1b6428bb4f478df89cc32e4.bindPopup(popup_3d654e1c94c341ba8d812d220ba1a294);
+
+            
+        
+    
+            var circle_marker_6585f2022bf84799877a7d9a132b67d0 = L.circleMarker(
+                [40.71780674892765,-73.98089031999291],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2a8a1d",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_d2924daebfc64bae9bf81634da6d4524 = L.popup({maxWidth: '300'});
+
+            
+                var html_8ab069c796894a27b60b7f94e5a8675e = $('<div id="html_8ab069c796894a27b60b7f94e5a8675e" style="width: 100.0%; height: 100.0%;">LOWER EAST SIDE Growth Median Sales Price: 14.0% Growth Mean Sale Price: 4.0% Growth in unit sales: 123.0% </div>')[0];
+                popup_d2924daebfc64bae9bf81634da6d4524.setContent(html_8ab069c796894a27b60b7f94e5a8675e);
+            
+
+            circle_marker_6585f2022bf84799877a7d9a132b67d0.bindPopup(popup_d2924daebfc64bae9bf81634da6d4524);
+
+            
+        
+    
+            var circle_marker_4455a159ca4f44eea9bd223443a4a35f = L.circleMarker(
+                [40.797307041702865,-73.96428617740655],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3131",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_bb187f5131e34bd59fa0d1cfde5610d3 = L.popup({maxWidth: '300'});
+
+            
+                var html_bf2412cfd3d5463fb3e8e8c427fb85e4 = $('<div id="html_bf2412cfd3d5463fb3e8e8c427fb85e4" style="width: 100.0%; height: 100.0%;">MANHATTAN VALLEY Growth Median Sales Price: -29.0% Growth Mean Sale Price: -11.0% Growth in unit sales: 59.0% </div>')[0];
+                popup_bb187f5131e34bd59fa0d1cfde5610d3.setContent(html_bf2412cfd3d5463fb3e8e8c427fb85e4);
+            
+
+            circle_marker_4455a159ca4f44eea9bd223443a4a35f.bindPopup(popup_bb187f5131e34bd59fa0d1cfde5610d3);
+
+            
+        
+    
+            var circle_marker_a5ec36b7d3c042428fa944ac44596fe0 = L.circleMarker(
+                [40.75469110270623,-73.98166882730304],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#db7209",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_1990003bc53244028cf980fea54d6c7d = L.popup({maxWidth: '300'});
+
+            
+                var html_863483130d994336bf7569c0404e2b3c = $('<div id="html_863483130d994336bf7569c0404e2b3c" style="width: 100.0%; height: 100.0%;">MIDTOWN CBD Growth Median Sales Price: -3.0% Growth Mean Sale Price: 10.0% Growth in unit sales: -28.0% </div>')[0];
+                popup_1990003bc53244028cf980fea54d6c7d.setContent(html_863483130d994336bf7569c0404e2b3c);
+            
+
+            circle_marker_a5ec36b7d3c042428fa944ac44596fe0.bindPopup(popup_1990003bc53244028cf980fea54d6c7d);
+
+            
+        
+    
+            var circle_marker_60fcc7b67053470ba75fbdf634e4c488 = L.circleMarker(
+                [40.75204236950722,-73.96770824581834],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2a8a1d",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_e7ce0dc36fae435eafe8081460c6d344 = L.popup({maxWidth: '300'});
+
+            
+                var html_2025ec85face4e94b7d3b6db2022179a = $('<div id="html_2025ec85face4e94b7d3b6db2022179a" style="width: 100.0%; height: 100.0%;">MIDTOWN EAST Growth Median Sales Price: 24.0% Growth Mean Sale Price: 12.0% Growth in unit sales: 51.0% </div>')[0];
+                popup_e7ce0dc36fae435eafe8081460c6d344.setContent(html_2025ec85face4e94b7d3b6db2022179a);
+            
+
+            circle_marker_60fcc7b67053470ba75fbdf634e4c488.bindPopup(popup_e7ce0dc36fae435eafe8081460c6d344);
+
+            
+        
+    
+            var circle_marker_9ee7064a0f274a97a98b5d0d2fd7d89f = L.circleMarker(
+                [40.7485096643122,-73.98871313285247],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2a8a1d",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_f9e377afc1f7477e9dc6f48184cacdc8 = L.popup({maxWidth: '300'});
+
+            
+                var html_8661140175824437a721255b649fab16 = $('<div id="html_8661140175824437a721255b649fab16" style="width: 100.0%; height: 100.0%;">MIDTOWN WEST Growth Median Sales Price: 61.0% Growth Mean Sale Price: 58.0% Growth in unit sales: 109.0% </div>')[0];
+                popup_f9e377afc1f7477e9dc6f48184cacdc8.setContent(html_8661140175824437a721255b649fab16);
+            
+
+            circle_marker_9ee7064a0f274a97a98b5d0d2fd7d89f.bindPopup(popup_f9e377afc1f7477e9dc6f48184cacdc8);
+
+            
+        
+    
+            var circle_marker_5cff54da55e94b51881e04bfef42bedc = L.circleMarker(
+                [40.748303077252174,-73.97833207924127],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3131",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_8d472e7b7d814955b9044a790a3cc055 = L.popup({maxWidth: '300'});
+
+            
+                var html_a0dc7e2de8f34530b0af08f3ca80ed15 = $('<div id="html_a0dc7e2de8f34530b0af08f3ca80ed15" style="width: 100.0%; height: 100.0%;">MURRAY HILL Growth Median Sales Price: -5.0% Growth Mean Sale Price: -28.0% Growth in unit sales: 88.0% </div>')[0];
+                popup_8d472e7b7d814955b9044a790a3cc055.setContent(html_a0dc7e2de8f34530b0af08f3ca80ed15);
+            
+
+            circle_marker_5cff54da55e94b51881e04bfef42bedc.bindPopup(popup_8d472e7b7d814955b9044a790a3cc055);
+
+            
+        
+    
+            var circle_marker_bf891e45fc604db286429010020a08ed = L.circleMarker(
+                [40.76215960576283,-73.94916769227953],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2a8a1d",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_08103e5b6307416e80faeb0c871a5450 = L.popup({maxWidth: '300'});
+
+            
+                var html_d15b5b1a6fc541d3aedf352b79d750a7 = $('<div id="html_d15b5b1a6fc541d3aedf352b79d750a7" style="width: 100.0%; height: 100.0%;">ROOSEVELT ISLAND Growth Median Sales Price: 28.0% Growth Mean Sale Price: 15.0% Growth in unit sales: 150.0% </div>')[0];
+                popup_08103e5b6307416e80faeb0c871a5450.setContent(html_d15b5b1a6fc541d3aedf352b79d750a7);
+            
+
+            circle_marker_bf891e45fc604db286429010020a08ed.bindPopup(popup_08103e5b6307416e80faeb0c871a5450);
+
+            
+        
+    
+            var circle_marker_35c10e5c09904e4e90ce0ae9f0504e00 = L.circleMarker(
+                [40.72218384131794,-74.00065666959759],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#db7209",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_75507724d4e94106a9d77ac8b9ae9ef4 = L.popup({maxWidth: '300'});
+
+            
+                var html_aba3774eef6e4b0ea05fbb39902aac37 = $('<div id="html_aba3774eef6e4b0ea05fbb39902aac37" style="width: 100.0%; height: 100.0%;">SOHO Growth Median Sales Price: 27.0% Growth Mean Sale Price: -2.0% Growth in unit sales: 76.0% </div>')[0];
+                popup_75507724d4e94106a9d77ac8b9ae9ef4.setContent(html_aba3774eef6e4b0ea05fbb39902aac37);
+            
+
+            circle_marker_35c10e5c09904e4e90ce0ae9f0504e00.bindPopup(popup_75507724d4e94106a9d77ac8b9ae9ef4);
+
+            
+        
+    
+            var circle_marker_43ca970fa6644610b95b36081f00f161 = L.circleMarker(
+                [40.72325901885768,-73.98843368023597],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3131",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_de34e85ccb06490ab5bdb7c61204b99b = L.popup({maxWidth: '300'});
+
+            
+                var html_e31c12f8a65d45a48551f0200bc9d8a9 = $('<div id="html_e31c12f8a65d45a48551f0200bc9d8a9" style="width: 100.0%; height: 100.0%;">SOUTHBRIDGE Growth Median Sales Price: -45.0% Growth Mean Sale Price: -42.0% Growth in unit sales: 400.0% </div>')[0];
+                popup_de34e85ccb06490ab5bdb7c61204b99b.setContent(html_e31c12f8a65d45a48551f0200bc9d8a9);
+            
+
+            circle_marker_43ca970fa6644610b95b36081f00f161.bindPopup(popup_de34e85ccb06490ab5bdb7c61204b99b);
+
+            
+        
+    
+            var circle_marker_18d1da399ba54ed8b9fd6d68f31fb19a = L.circleMarker(
+                [40.721521967443216,-74.01068328559087],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3131",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_e888331fd1ba485cac31f1f6e2f43b57 = L.popup({maxWidth: '300'});
+
+            
+                var html_bac925b0935e465baf4f5ea9a4f5ce37 = $('<div id="html_bac925b0935e465baf4f5ea9a4f5ce37" style="width: 100.0%; height: 100.0%;">TRIBECA Growth Median Sales Price: -18.0% Growth Mean Sale Price: -14.0% Growth in unit sales: 105.0% </div>')[0];
+                popup_e888331fd1ba485cac31f1f6e2f43b57.setContent(html_bac925b0935e465baf4f5ea9a4f5ce37);
+            
+
+            circle_marker_18d1da399ba54ed8b9fd6d68f31fb19a.bindPopup(popup_e888331fd1ba485cac31f1f6e2f43b57);
+
+            
+        
+    
+            var circle_marker_7af819e682b047cdbe764a9f84f3a7b0 = L.circleMarker(
+                [40.76811265828733,-73.9588596881376],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2a8a1d",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_5d4828dc629044ad9ccf05546557ed31 = L.popup({maxWidth: '300'});
+
+            
+                var html_f2a264ccc08f47beb40ae21223ae6f20 = $('<div id="html_f2a264ccc08f47beb40ae21223ae6f20" style="width: 100.0%; height: 100.0%;">UPPER EAST SIDE (59-79) Growth Median Sales Price: 1.0% Growth Mean Sale Price: 14.0% Growth in unit sales: 56.0% </div>')[0];
+                popup_5d4828dc629044ad9ccf05546557ed31.setContent(html_f2a264ccc08f47beb40ae21223ae6f20);
+            
+
+            circle_marker_7af819e682b047cdbe764a9f84f3a7b0.bindPopup(popup_5d4828dc629044ad9ccf05546557ed31);
+
+            
+        
+    
+            var circle_marker_f42491dbca0b4de69a77c6a5c08f4752 = L.circleMarker(
+                [40.775638573301805,-73.96050763135],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#db7209",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_dfd5235db58d402eb608aaca4dc5fa3f = L.popup({maxWidth: '300'});
+
+            
+                var html_ef5ebd2fd783438781318f3e4129354b = $('<div id="html_ef5ebd2fd783438781318f3e4129354b" style="width: 100.0%; height: 100.0%;">UPPER EAST SIDE (79-96) Growth Median Sales Price: 4.0% Growth Mean Sale Price: -9.0% Growth in unit sales: 72.0% </div>')[0];
+                popup_dfd5235db58d402eb608aaca4dc5fa3f.setContent(html_ef5ebd2fd783438781318f3e4129354b);
+            
+
+            circle_marker_f42491dbca0b4de69a77c6a5c08f4752.bindPopup(popup_dfd5235db58d402eb608aaca4dc5fa3f);
+
+            
+        
+    
+            var circle_marker_5043cf1cb05f4415ab31396c9d84e344 = L.circleMarker(
+                [40.77352888942166,-73.98533777001262],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3131",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_f769d141a06d4fe69227d44f76346ded = L.popup({maxWidth: '300'});
+
+            
+                var html_60cd1b4034af4b02a5daf4723f9ad45b = $('<div id="html_60cd1b4034af4b02a5daf4723f9ad45b" style="width: 100.0%; height: 100.0%;">UPPER WEST SIDE (59-79) Growth Median Sales Price: -23.0% Growth Mean Sale Price: -19.0% Growth in unit sales: 23.0% </div>')[0];
+                popup_f769d141a06d4fe69227d44f76346ded.setContent(html_60cd1b4034af4b02a5daf4723f9ad45b);
+            
+
+            circle_marker_5043cf1cb05f4415ab31396c9d84e344.bindPopup(popup_f769d141a06d4fe69227d44f76346ded);
+
+            
+        
+    
+            var circle_marker_04ddc38bd215417f9fd9f2e1561d47b7 = L.circleMarker(
+                [40.787657998534854,-73.97705923630603],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2a8a1d",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_9d8a4f9ad4bc4ac0b764d8e86b2e5b58 = L.popup({maxWidth: '300'});
+
+            
+                var html_5ae12d1de0324a0bb3de4adbe24a52e3 = $('<div id="html_5ae12d1de0324a0bb3de4adbe24a52e3" style="width: 100.0%; height: 100.0%;">UPPER WEST SIDE (79-96) Growth Median Sales Price: 10.0% Growth Mean Sale Price: 71.0% Growth in unit sales: 17.0% </div>')[0];
+                popup_9d8a4f9ad4bc4ac0b764d8e86b2e5b58.setContent(html_5ae12d1de0324a0bb3de4adbe24a52e3);
+            
+
+            circle_marker_04ddc38bd215417f9fd9f2e1561d47b7.bindPopup(popup_9d8a4f9ad4bc4ac0b764d8e86b2e5b58);
+
+            
+        
+    
+            var circle_marker_28c63a5e03644a7ab5352f679c9ee7b4 = L.circleMarker(
+                [40.823604284811935,-73.94968791883366],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#db7209",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_0c387ac0c26f45c7b217902927da4a6b = L.popup({maxWidth: '300'});
+
+            
+                var html_f430760d7b584162a1d4138b7912f7d0 = $('<div id="html_f430760d7b584162a1d4138b7912f7d0" style="width: 100.0%; height: 100.0%;">UPPER WEST SIDE (96-116) Growth Median Sales Price: -12.0% Growth Mean Sale Price: 6.0% Growth in unit sales: 170.0% </div>')[0];
+                popup_0c387ac0c26f45c7b217902927da4a6b.setContent(html_f430760d7b584162a1d4138b7912f7d0);
+            
+
+            circle_marker_28c63a5e03644a7ab5352f679c9ee7b4.bindPopup(popup_0c387ac0c26f45c7b217902927da4a6b);
+
+            
+        
+    
+            var circle_marker_e50ee36336744092b171adf2caae846c = L.circleMarker(
+                [40.85190252555305,-73.93690027985234],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2a8a1d",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ea9a8c350a514439b33a36568dc751b7);
+            
+    
+            var popup_2835a52fe36740599d2fa38fe3fd74d5 = L.popup({maxWidth: '300'});
+
+            
+                var html_63b4070aa0e9416cb1963702005fe0f5 = $('<div id="html_63b4070aa0e9416cb1963702005fe0f5" style="width: 100.0%; height: 100.0%;">WASHINGTON HEIGHTS Growth Median Sales Price: 57.0% Growth Mean Sale Price: 19.0% Growth in unit sales: 150.0% </div>')[0];
+                popup_2835a52fe36740599d2fa38fe3fd74d5.setContent(html_63b4070aa0e9416cb1963702005fe0f5);
+            
+
+            circle_marker_e50ee36336744092b171adf2caae846c.bindPopup(popup_2835a52fe36740599d2fa38fe3fd74d5);
+
+            
+        
+</script>
